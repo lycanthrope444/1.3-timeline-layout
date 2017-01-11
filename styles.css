@@ -19,29 +19,36 @@ div{
 }
 
 .dates {
-
+  display: inline-block;
+  position: relative;
 }
 
 .date-box{
-  border: 2px solid gray;
-  background-color: yellow;
-
+  display: inline-block;
+  border-right: 2px solid #B7DCF3;
+  height: 379px;
+  padding:0 39px 0 0;
 }
 
 .month-day{
-  display: inline-block;
+  display: block;
+  font-size: 12px;
+  float:right;
 }
 
 .time{
-  display: inline-block;
+  display: block;
+  font-size: 36px;
 }
 .event-box{
   display: inline-block;
   height: 379px;
   width: 783px;
   padding: 47px 38px 64px 38px;
-  border: 2px solid gray;
+  border: 1px solid white;
+  border-radius: 5px;
   background-color: #7EC0E7;
+  margin-left: 52px;
 }
 
 .event-header{
