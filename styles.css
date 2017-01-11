@@ -16,7 +16,7 @@ div{
 
 .timeline-entry {
   width: 75%;
-  margin: 5% 15% 0 10%;
+  margin: 5% 5% 0 10%;
 }
 
 .dates {
@@ -25,16 +25,28 @@ div{
 
 .date-box{
   border: 2px solid gray;
+  background-color: yellow;
+
 }
 
+.month-day{
+  display: block;
+}
+
+.time{
+  display: block;
+}
 .events{
   border: 2px solid gray;
 }
 
 .event-header{
   display:block;
+  background-color: red
 }
 
 .event-happenings {
-  display:block;  
+  display:block;
+  background-color: blue
+
 }
