@@ -1,3 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%
+}
+
 body{
-  background-color: blue;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div{
+  display: inline-block;
+}
+
+.timeline-entry {
+  width: 75%;
+  margin: 5% 15% 0 10%;
+}
+
+.dates {
+
+}
+
+.date-box{
+  border: 2px solid gray;
+}
+
+.events{
+  border: 2px solid gray;
+}
+
+.event-header{
+  display:block;
+}
+
+.event-happenings {
+  display:block;  
 }
