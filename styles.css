@@ -20,13 +20,15 @@ div{
 
 .dates {
   display: inline-block;
-}
-
-.date-box{
+  vertical-align: top;
   display: inline-block;
   border-right: 2px solid #B7DCF3;
   height: 379px;
   padding:0 39px 0 0;
+}
+
+.date-box{
+  display: inline-block;
 }
 
 .month-day{
@@ -42,15 +44,40 @@ div{
   color: #7EC0E7;
 }
 
+.image-box{
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-left: 5px;
+  margin-right: -67px;
+  margin-top: -56px;
+  height:56px;
+  width:56px;
+  border-radius: 28px;
+  background-color: #B7DCF3;
+}
+
+.inner-circle{
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin-left: 0px;
+  margin-right: 0px;
+  height:40px;
+  width:40px;
+  border-radius: 20px;
+  background-color: #5CA6D3;
+}
+
 .event-box::before{
   content:"";
   border: 10px solid transparent;
   border-right-color: #7EC0E7;
   height: 0;
   width: 0;
-  position: absolute;
-  top: 13px;
-  left: 177px;
+  position: relative;
+  top: -33px;
+  left: -58px;
 }
 
 .event-box{
@@ -71,7 +98,6 @@ div{
   color: white;
   width: 100%;
   border-bottom: 1px solid #AFD8EF;
-  margin-top: 47px;
   padding-bottom: 19px;
 }
 
