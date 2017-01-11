@@ -20,7 +20,6 @@ div{
 
 .dates {
   display: inline-block;
-  position: relative;
 }
 
 .date-box{
@@ -32,6 +31,7 @@ div{
 
 .month-day{
   display: block;
+  color: #C1D7E6;
   font-size: 12px;
   float:right;
 }
@@ -39,7 +39,20 @@ div{
 .time{
   display: block;
   font-size: 36px;
+  color: #7EC0E7;
 }
+
+.event-box::before{
+  content:"";
+  border: 10px solid transparent;
+  border-right-color: #7EC0E7;
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 13px;
+  left: 177px;
+}
+
 .event-box{
   display: inline-block;
   height: 379px;
@@ -52,12 +65,20 @@ div{
 }
 
 .event-header{
-  display:block;
-  background-color: red
+  display:inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  border-bottom: 1px solid #AFD8EF;
+  margin-top: 47px;
+  padding-bottom: 19px;
 }
 
 .event-happenings {
-  display:block;
-  background-color: blue
-
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  margin-top: 29px;
 }
