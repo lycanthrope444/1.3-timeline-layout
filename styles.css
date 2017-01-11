@@ -15,8 +15,7 @@ div{
 }
 
 .timeline-entry {
-  width: 75%;
-  margin: 5% 5% 0 10%;
+
 }
 
 .dates {
@@ -30,14 +29,19 @@ div{
 }
 
 .month-day{
-  display: block;
+  display: inline-block;
 }
 
 .time{
-  display: block;
+  display: inline-block;
 }
-.events{
+.event-box{
+  display: inline-block;
+  height: 379px;
+  width: 783px;
+  padding: 47px 38px 64px 38px;
   border: 2px solid gray;
+  background-color: #7EC0E7;
 }
 
 .event-header{
