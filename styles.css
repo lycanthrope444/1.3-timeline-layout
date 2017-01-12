@@ -19,12 +19,12 @@ div{
 }
 
 .dates {
-  display: inline-block;
-  vertical-align: top;
-  display: inline-block;
-  border-right: 2px solid #B7DCF3;
-  height: 379px;
-  padding:0 39px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+    border-right: 10px solid #B7DCF3;
+    height: 409px;
+    padding: 0px 35px 0 0;
 }
 
 .date-box{
@@ -61,23 +61,41 @@ div{
   display: inline-block;
   position: relative;
   float: right;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 8px;
+  margin-right: 8px;
   height:40px;
   width:40px;
   border-radius: 20px;
   background-color: #5CA6D3;
 }
 
-.event-box::before{
-  content:"";
-  border: 10px solid transparent;
-  border-right-color: #7EC0E7;
-  height: 0;
-  width: 0;
+.fa-thumbs-up{
+  display: inline-block;
   position: relative;
-  top: -33px;
-  left: -58px;
+  margin-left: 11px;
+  margin-top: 12px;
+  color: white;
+}
+
+.fa-university{
+  display: inline-block;
+  position: relative;
+  margin-left: 11px;
+  margin-top: 12px;
+  color: white;
+}
+
+.arrowholder::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    border: 10px solid transparent;
+    border-right-color: #7EC0E7;
+    margin-left: 25px;
+    margin-right: -57px;
+    margin-bottom: 121px;
+    height: 0px;
+    width: 0px;
 }
 
 .event-box{
